@@ -1,0 +1,32 @@
+{
+  "name": "langgraph-ai-battle-arena",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnujDhauskar/langgraph_AI_battle_arena.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnujDhauskar/langgraph_AI_battle_arena/issues"
+  },
+  "homepage": "https://github.com/AnujDhauskar/langgraph_AI_battle_arena#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.8.0",
+    "tsx": "^4.22.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
