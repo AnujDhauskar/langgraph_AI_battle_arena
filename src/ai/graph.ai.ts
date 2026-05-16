@@ -18,7 +18,7 @@ const state = new StateSchema({
 
 const solutionNode : GraphNode<typeof state> = async(state) => {
         
-    const [mistralResponse, cohereResonse] = await promise.all([
+    const [mistralResponse, cohereResonse] = await Promise.all([
         mistralModel.invoke(state.problem),
         cohereModel.invoke(state.problem)
     ])
